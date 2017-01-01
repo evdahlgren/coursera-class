@@ -1,15 +1,19 @@
 
-/********** Base styles **********/
 * {
   box-sizing: border-box;
   margin-top: 0;
+  font-family: verdana;
 }
+
 h1 {
+  margin-top: 15px;
   margin-bottom: 15px;
+  text-align: center;
+  font-size: 1.75em;
 }
 
 .section {
-  background-color: #FFCCCC;
+  background-color: #CCE5FF;
   border: 1px solid black;
   position: relative;
   padding-top: 45px;
@@ -19,32 +23,34 @@ h1 {
 }
 
 .food-title {
-  width: 100px;
-  height: 30px;
+  width: 135px;
+  height: 35px;
   text-align: center;
   border-left: 1px solid black;
   border-bottom: 1px solid black;
   position: absolute;
   top: 0;
   right: 0;
-  padding-top: 5px;
+  padding-top: 3px;
+  font-size: 1.25em;
+  font-weight: bold;
+  color: #fff;
 }
 
 #title1 {
-  background-color: #FF3333;
+  background-color: #006666;
 }
 #title2 {
-  background-color: #FF8000;
+  background-color: #003366;
 }
 #title3 {
-  background-color: #FFF666;
+  background-color: #663300;
 }
-/* Simple Responsive Framework. */
+
 .row {
   width: 100%;
 }
 
-/********** Large devices only **********/
 @media (min-width: 992px) {
   .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12 {
     float: left;
@@ -87,7 +93,6 @@ h1 {
   }
 }
 
-/********** Medium devices only **********/
 @media (min-width: 768px) and (max-width: 991px) {
   .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12 {
     float: left;
